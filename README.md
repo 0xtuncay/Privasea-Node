@@ -125,7 +125,8 @@ Ardından metamaska gelerek yeni cüzdan Ekle seçeneğinden json olarak import 
 
 We save the wallet_keystore file to our device via sftp. Then, we will go to Metamask and click on the import as json option from the Add new wallet option. We will enter our password and import the wallet into Metamask.
 
-
+# Daha sonra,
+siteye giriyoruz. Arbitrum sepolia Faucet alıyoruz, Siteden Token faucet alıyoruz,
 
 
 
