@@ -115,8 +115,15 @@ mv ./UTC--2025-01-26T10-10-23.913157088Z--41dfad103d814260b2c91ac5bd0815756e5cb1
 cd /privasea/config && ls
 ```
 
+# Cüzdanımızı Metamaska İmport edeceğiz.
+
+We will import our wallet to Metamask.
 
 
+wallet_keystore Dosyasını sftp ile cihazımıza kaydediyoruz.
+Ardından metamaska gelerek yeni cüzdan Ekle seçeneğinden json olarak import et seçeneğine basacağız. Şifremizi girip cüzdanı metamaska import etmiş olacağız.
+
+We save the wallet_keystore file to our device via sftp. Then, we will go to Metamask and click on the import as json option from the Add new wallet option. We will enter our password and import the wallet into Metamask.
 
 
 
