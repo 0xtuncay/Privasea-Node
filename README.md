@@ -34,13 +34,56 @@ sudo apt update
 sudo apt install -y docker-ce
 ```
 
-Verify Docker Installation,
+Verify Docker Installation
 Docker Kurulumunu Doğrulama
 
 
 ```
 sudo docker --version
 ```
+
+Expected output:
+Çıktı örneği:
+
+![IMG_20250126_130248](https://github.com/user-attachments/assets/e9bdd538-454b-40cf-8fb6-adfd7def12ef)
+
+Start and Enable Docker Service
+
+Docker Servisini Başlatıyoruz ve Etkinleştiriyoruz.
+
+```
+sudo systemctl start docker
+```
+
+```
+sudo systemctl enable docker
+```
+
+# Pull docker mirroring
+Repoyu Docker ile çekiyoruz.
+
+```
+docker pull privasea/acceleration-node-beta:latest
+```
+
+
+Create the program running directory and navigate to it:
+
+Dizin Oluşturuyoruz, ve İçine giriyoruz.
+
+
+```
+sudo su
+```
+
+```
+mkdir -p  /privasea/config && cd  /privasea
+```
+
+
+
+
+
 
 
 
