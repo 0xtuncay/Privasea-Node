@@ -80,9 +80,16 @@ sudo su
 mkdir -p  /privasea/config && cd  /privasea
 ```
 
+We Create a Wallet, you will enter the Password, and save the output as our node address.
 
 
+Cüzdan Oluşturuyoruz, Şifre gireceksiniz, ve çıkan çıktıyı kaydedin bizim node adresimiz.
 
+
+```
+docker run -it -v "/privasea/config:/app/config"  \
+privasea/acceleration-node-beta:latest ./node-calc new_keystore
+```
 
 
 
