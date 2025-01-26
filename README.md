@@ -35,6 +35,7 @@ sudo apt install -y docker-ce
 ```
 
 Verify Docker Installation
+
 Docker Kurulumunu Doğrulama
 
 
@@ -43,6 +44,7 @@ sudo docker --version
 ```
 
 Expected output:
+
 Çıktı örneği:
 
 ![IMG_20250126_130248](https://github.com/user-attachments/assets/e9bdd538-454b-40cf-8fb6-adfd7def12ef)
@@ -90,6 +92,30 @@ Cüzdan Oluşturuyoruz, Şifre gireceksiniz, ve çıkan çıktıyı kaydedin biz
 docker run -it -v "/privasea/config:/app/config"  \
 privasea/acceleration-node-beta:latest ./node-calc new_keystore
 ```
+
+We change the name of the Wallet we created. Copy the name that will appear when you enter the file. I wrote mine as an example.
+
+Oluşturduğumuz Cüzdanın ismini değiştiriyoruz. Dosyanın içine girince gözükecek ismi kopyalayın.
+Ben Örnek olsun diye kendiminkini yazdim.
+
+```
+cd /privasea/config && ls
+```
+
+![Screenshot_2025-01-26-13-17-25-672-edit_com server auditor ssh client](https://github.com/user-attachments/assets/20fd6148-9eac-46d6-9620-a23d950cb667)
+
+
+
+
+```
+mv ./UTC--2025-01-26T10-10-23.913157088Z--41dfad103d814260b2c91ac5bd0815756e5cb1df  ./wallet_keystore 
+```
+
+```
+cd /privasea/config && ls
+```
+
+
 
 
 
