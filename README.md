@@ -126,11 +126,42 @@ Ardından metamaska gelerek yeni cüzdan Ekle seçeneğinden json olarak import 
 We save the wallet_keystore file to our device via sftp. Then, we will go to Metamask and click on the import as json option from the Add new wallet option. We will enter our password and import the wallet into Metamask.
 
 # Daha sonra,
-siteye giriyoruz. Arbitrum sepolia Faucet alıyoruz, Siteden Token faucet alıyoruz,
+Site Linki: https://deepsea-beta.privasea.ai/privanetixNode
+
+Arbitrum sepolia Faucet alıyoruz, Siteden Token faucet alıyoruz, Node Etkinleştirme kısmından komisyonu ve İsmimizi Yazıyoruz, Ve Kaydediyoruz.
+
+# Son işlemler.
+
+Kodu girerek Node başlatıcaz.
+
+```
+cd /privasea/
+```
+
+
+Burada 123456 yazan yere cüzdan sifrenizi girin.
+
+```
+docker run  -d   -v "/privasea/config:/app/config" \
+  -e KEYSTORE_PASSWORD=123456 \
+  privasea/acceleration-node-beta:latest
+```
+
+
+Onra size uzun bir çıktı verecek onunla birlikte node sağlığına bakacağız.
+
+```
+docker logs -f uzunciktiyiburayayapistirin
+```
+
+En Son Böyle Gözükecek.
+
+
+![Screenshot_2025-01-27-01-47-25-681-edit_com server auditor ssh client](https://github.com/user-attachments/assets/a2fc3eeb-5c38-4528-91b9-8937a73e3b1f)
 
 
 
-
+Anlamadığız Takıldığınız bir yer olursa sorun.
 
 
 
