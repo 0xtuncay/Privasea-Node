@@ -6,7 +6,7 @@
 |-------------|--------------|---------------|
 | CPU         | 4            | 6             |
 | RAM         | 4 GB         | 16 GB         |
-| Depolama    | 100 GB       |               |
+| Depolama    | 100 GB       | 100GB         |
 
 ---
 
@@ -159,6 +159,14 @@ En Son Böyle Gözükecek.
 
 ![Screenshot_2025-01-27-01-47-25-681-edit_com server auditor ssh client](https://github.com/user-attachments/assets/a2fc3eeb-5c38-4528-91b9-8937a73e3b1f)
 
+Daha Sonra Siteye Giriyoruz Sağ üst köşeden "my privex node" kısmına basıp "Set on up now" diyerek komisyonu, node adresimizi giriyoruz. 
+
+![Screenshot_2025-01-27-18-30-33-194-edit_site mises browser](https://github.com/user-attachments/assets/a74f0773-2fe0-4df5-8fd9-727c28b9e4e2)
+
+En son Details Kısmında faucet almıştık 1 adet token stake ediyoruz.
+Eğer stake ederken hata alırsanız, gas 300k yapın.
+
+![Screenshot_2025-01-27-18-30-18-812_site mises browser](https://github.com/user-attachments/assets/f6a9e28e-e170-49fd-a6f8-88e90b675c70)
 
 
 Anlamadığız Takıldığınız bir yer olursa sorun.
